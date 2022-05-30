@@ -1,2 +1,2 @@
-# Springcloud-Alibaba
+# SpringCloud-Alibaba
 SpringCloud-Alibaba小练习
