@@ -2,7 +2,7 @@ server:
   port: 8091
 spring:
   application:
-    name: service-product
+    name: service-order
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql:///shop?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true
@@ -13,4 +13,7 @@ spring:
       hibernate:
         hbm2ddl:
           auto: update
-
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
